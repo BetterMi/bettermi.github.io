@@ -1,4 +1,8 @@
 User-agent: *
 Disallow: 
 
+<<<<<<< HEAD
 Sitemap: http://bettermi.github.io/sitemap.xml 
+=======
+Sitemap: http://yoursite.com/sitemap.xml 
+>>>>>>> ed9ef002bcf07215b3d6348d2214ade5095a421d
