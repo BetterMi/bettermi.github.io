@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-<<<<<<< HEAD
   <title><![CDATA[Better Mi]]></title>
   <link href="http://bettermi.github.io/atom.xml" rel="self"/>
   <link href="http://bettermi.github.io/"/>
@@ -9,21 +8,11 @@
   <id>http://bettermi.github.io/</id>
   <author>
     <name><![CDATA[HM]]></name>
-=======
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2016-01-18T15:06:21+08:00</updated>
-  <id>http://yoursite.com/</id>
-  <author>
-    <name><![CDATA[Your Name]]></name>
->>>>>>> ed9ef002bcf07215b3d6348d2214ade5095a421d
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
-<<<<<<< HEAD
   <entry>
     <title type="html"><![CDATA[Hello World!]]></title>
     <link href="http://bettermi.github.io/blog/2016/01/18/hello-world/"/>
@@ -37,6 +26,4 @@
 ]]></content>
   </entry>
   
-=======
->>>>>>> ed9ef002bcf07215b3d6348d2214ade5095a421d
 </feed>
