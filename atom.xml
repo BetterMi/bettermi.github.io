@@ -4,7 +4,7 @@
   <title><![CDATA[Better Mi]]></title>
   <link href="http://bettermi.github.io/atom.xml" rel="self"/>
   <link href="http://bettermi.github.io/"/>
-  <updated>2016-01-18T15:52:17+08:00</updated>
+  <updated>2016-01-18T16:01:26+08:00</updated>
   <id>http://bettermi.github.io/</id>
   <author>
     <name><![CDATA[HM]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World!]]></title>
+    <link href="http://bettermi.github.io/blog/2016/01/18/hello-world/"/>
+    <updated>2016-01-18T15:58:35+08:00</updated>
+    <id>http://bettermi.github.io/blog/2016/01/18/hello-world</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
