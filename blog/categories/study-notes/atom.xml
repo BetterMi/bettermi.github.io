@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Studynotes | Better Mi]]></title>
-  <link href="http://bettermi.github.io/blog/categories/studynotes/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Study-notes | Better Mi]]></title>
+  <link href="http://bettermi.github.io/blog/categories/study-notes/atom.xml" rel="self"/>
   <link href="http://bettermi.github.io/"/>
-  <updated>2016-01-22T15:51:44+08:00</updated>
+  <updated>2016-01-22T16:15:02+08:00</updated>
   <id>http://bettermi.github.io/</id>
   <author>
     <name><![CDATA[HM]]></name>

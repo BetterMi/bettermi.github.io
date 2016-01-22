@@ -4,7 +4,7 @@
   <title><![CDATA[Better Mi]]></title>
   <link href="http://bettermi.github.io/atom.xml" rel="self"/>
   <link href="http://bettermi.github.io/"/>
-  <updated>2016-01-22T15:51:44+08:00</updated>
+  <updated>2016-01-22T16:15:02+08:00</updated>
   <id>http://bettermi.github.io/</id>
   <author>
     <name><![CDATA[HM]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress的一些配置]]></title>
+    <link href="http://bettermi.github.io/blog/2016/01/22/octopressde-%5B%3F%5D-xie-pei-zhi/"/>
+    <updated>2016-01-22T16:13:59+08:00</updated>
+    <id>http://bettermi.github.io/blog/2016/01/22/octopressde-[?]-xie-pei-zhi</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[学习BASH Shell]]></title>
