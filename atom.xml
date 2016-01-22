@@ -4,7 +4,7 @@
   <title><![CDATA[Better Mi]]></title>
   <link href="http://bettermi.github.io/atom.xml" rel="self"/>
   <link href="http://bettermi.github.io/"/>
-  <updated>2016-01-22T16:58:06+08:00</updated>
+  <updated>2016-01-22T17:06:48+08:00</updated>
   <id>http://bettermi.github.io/</id>
   <author>
     <name><![CDATA[HM]]></name>
@@ -18,7 +18,9 @@
     <link href="http://bettermi.github.io/blog/2016/01/22/octopressde-%5B%3F%5D-xie-pei-zhi/"/>
     <updated>2016-01-22T16:13:59+08:00</updated>
     <id>http://bettermi.github.io/blog/2016/01/22/octopressde-[?]-xie-pei-zhi</id>
-    <content type="html"><![CDATA[<ol>
+    <content type="html"><![CDATA[<h2>添加文章分类</h2>
+
+<ol>
 <li>添加category_list
 
 <blockquote><p>git clone <a href="https://github.com/tokkonopapa/octopress-tagcloud.git">https://github.com/tokkonopapa/octopress-tagcloud.git</a></p></blockquote></li>
@@ -26,8 +28,6 @@
 <li>修改<em>config.yml，在</em>config.yml文件中找到default_asides，在中括号中添加asides/category_list.html。加入的顺序决定了在侧边栏中显示的顺序。</li>
 </ol>
 
-
-<hr />
 ]]></content>
   </entry>
   
