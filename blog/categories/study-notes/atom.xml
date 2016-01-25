@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Study-notes | Better Mi]]></title>
   <link href="http://bettermi.github.io/blog/categories/study-notes/atom.xml" rel="self"/>
   <link href="http://bettermi.github.io/"/>
-  <updated>2016-01-22T17:16:46+08:00</updated>
+  <updated>2016-01-25T15:08:54+08:00</updated>
   <id>http://bettermi.github.io/</id>
   <author>
     <name><![CDATA[HM]]></name>
@@ -18,16 +18,55 @@
     <link href="http://bettermi.github.io/blog/2016/01/22/octopressde-%5B%3F%5D-xie-pei-zhi/"/>
     <updated>2016-01-22T16:13:59+08:00</updated>
     <id>http://bettermi.github.io/blog/2016/01/22/octopressde-[?]-xie-pei-zhi</id>
-    <content type="html"><![CDATA[<h2> 添加文章分类</h2>
+    <content type="html"><![CDATA[<h2> 添加文章分类 </h2>
+
+<p> 我们想要给文字加一些分类，同时可以按照这些分类来查看文章，要怎么办呢？</p>
 
 <ol>
-<li>添加category_list
+<li><p>添加category_list</p>
 
-<blockquote><p>git clone <a href="https://github.com/tokkonopapa/octopress-tagcloud.git">https://github.com/tokkonopapa/octopress-tagcloud.git</a></p></blockquote></li>
-<li>将category_list.html和tag_cloud.html放到/source/_includes/asides路径下，将tag_cloud.rb放到/plugins路径下。</li>
-<li>修改<em>config.yml，在</em>config.yml文件中找到default_asides，在中括号中添加asides/category_list.html。加入的顺序决定了在侧边栏中显示的顺序。</li>
+<pre><code class="git">git clone https://github.com/tokkonopapa/octopress-tagcloud.git
+</code></pre></li>
+<li><p>将category_list.html和tag_cloud.html放到/source/_includes/asides路径下，将tag_cloud.rb放到/plugins路径下</p></li>
+<li><p>修改<em>config.yml，在</em>config.yml文件中找到default_asides，在中括号中添加asides/category_list.html。加入的顺序决定了在侧边栏中显示的顺序。</p></li>
 </ol>
 
+
+<h2> 新建及修改Page </h2>
+
+<p> 默认的Octopress给我们生成了两个page，如果我们想要新建一些page，可以这样来做：</p>
+
+<ol>
+<li><p>rake new_page[&lsquo;about&rsquo;]</p>
+
+<p>这样会生成一个/Users/qiyou_hm/octopress/source/about/index.markdown，编辑就可以啦~</p></li>
+<li><p>在文件/Users/qiyou_hm/octopress/source/_includes/custom/navigation.htm中中加加</p>
+
+<pre><code class="html"> &lt;li&gt;&lt;a href="/about"&gt;AboutMe&lt;/a&gt;&lt;/li&gt;
+</code></pre></li>
+</ol>
+
+
+<h2> 添加链接</h2>
+
+<p> 在侧边栏中我们也可以添加一些友情链接，方法如下：</p>
+
+<ol>
+<li>在路径/Users/qiyou_hm/octopress/source/_includes/asides下新建文件blog_link.html</li>
+</ol>
+
+
+<pre><code class="`"> &lt;section&gt;
+    &lt;h1&gt;Links&lt;/h1&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+        &lt;a href="https://github.com/yl33643/yl33643.github.io"&gt;github yl33643.github.io&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+ &lt;/section&gt; 
+</code></pre>
+
+<p> 最后要记住，在_config.yml的default_asides array中添加asides/blog_link.html</p>
 ]]></content>
   </entry>
   
