@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Self-talking | Better Mi]]></title>
+  <link href="http://bettermi.github.io/blog/categories/self-talking/atom.xml" rel="self"/>
+  <link href="http://bettermi.github.io/"/>
+  <updated>2016-01-25T15:08:54+08:00</updated>
+  <id>http://bettermi.github.io/</id>
+  <author>
+    <name><![CDATA[HM]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World!]]></title>
+    <link href="http://bettermi.github.io/blog/2016/01/18/hello-world/"/>
+    <updated>2016-01-18T15:58:35+08:00</updated>
+    <id>http://bettermi.github.io/blog/2016/01/18/hello-world</id>
+    <content type="html"><![CDATA[<p>  袁老师教导我们说，有输入就得有输出。</p>
+
+<p>  所以在袁老师的帮助下，我也拥有了自己可输出的地方。</p>
+
+<p>  鼓掌~👏👏👏撒花~🌻🌻🌻</p>
+]]></content>
+  </entry>
+  
+</feed>
