@@ -4,7 +4,7 @@
   <title><![CDATA[Better Mi]]></title>
   <link href="http://bettermi.github.io/atom.xml" rel="self"/>
   <link href="http://bettermi.github.io/"/>
-  <updated>2016-02-02T11:14:43+08:00</updated>
+  <updated>2016-02-02T11:28:02+08:00</updated>
   <id>http://bettermi.github.io/</id>
   <author>
     <name><![CDATA[HM]]></name>
@@ -82,7 +82,7 @@
 <p> 我们来举个栗子，你想要电脑给你播放一首歌，我们需要有“声卡”这个硬件，否则不会发出声音，但是硬件们如何能知道我让他们干什么呢？那就需要kernel（核心）来控制了，但是话又说回来，kernel听不懂我们说话，我们也没法直接记住kernel的语言，kernel是怎么和我们沟通的呢，这时候就是Shell的用武之地了。Shell像一个壳子一样将kernel包裹在里面，我们只要记住Shell的一些命令，就可以和kernel沟通了。
  看看下图理解一下：</p>
 
-<p><img src="http://bettermi.github.io/images/2016/01/0320bash_1.png" alt="0320bash_1" /></p>
+<p><img src="http://bettermi.github.io/images/2016/01/0320bash_1.jpg" alt="0320bash_1" /></p>
 
 <h2> 什么是Bash Shell</h2>
 
