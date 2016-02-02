@@ -9,8 +9,7 @@
   <meta name="author" content="HM">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="什么是Shell 最直观的，从英语单词来看，Shell就是壳子。那么是什么东西的壳子呢？ 我们来举个栗子，你想要电脑给你播放一首歌，我们需要有“声卡”这个硬件，否则不会发出声音，但是硬件们如何能知道我让他们干什么呢？那就需要kernel（核心）来控制了，但是话又说回来，kernel听不懂我们说话 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -86,7 +85,32 @@
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><h2> 什么是Shell</h2>
+
+<p> 最直观的，从英语单词来看，Shell就是壳子。那么是什么东西的壳子呢？</p>
+
+<p> 我们来举个栗子，你想要电脑给你播放一首歌，我们需要有“声卡”这个硬件，否则不会发出声音，但是硬件们如何能知道我让他们干什么呢？那就需要kernel（核心）来控制了，但是话又说回来，kernel听不懂我们说话，我们也没法直接记住kernel的语言，kernel是怎么和我们沟通的呢，这时候就是Shell的用武之地了。Shell像一个壳子一样将kernel包裹在里面，我们只要记住Shell的一些命令，就可以和kernel沟通了。
+ 看看下图理解一下：</p>
+
+<p><img src="/images/2016/01/0320bash_1.png" alt="0320bash_1" /></p>
+
+<h2> 什么是Bash Shell</h2>
+
+<p> Bash Shell又是什么鬼？其实我们通俗的理解，衣服鞋子有品牌，耐克阿迪神马的，Shell也有各种牌子啊，Bash牌Shell。。。早年的Unix，因为发展者众，所以形成了很多版本的shell，而Linux使用的这一种版本就称为“Bourne Again Shell（简称bash）”。</p>
+
+<h2> Bash的优点</h2>
+
+<p> 这里的介绍主要是通过这些优点，我们有哪些使用时的技巧</p>
+
+<ul>
+<li><p>命令编修能力：</p>
+
+<p> bash能记忆使用过的指令，通过“上下键”就可以找到之前输入的某个指令。我们曾经输入过的指令都记录 在.bash_history文档中。</p></li>
+<li><p>档案对比补全功能：</p>
+
+<p> 输入某个指令的前面几个单词之后，按下“tab”键，那么后面的单词就会自动补全了。如果有重复的指令，连续按下两次“tab”键，就会列出所有的重复单词。文件名也同样可以使用“tab”</p></li>
+</ul>
+
 </div>
 
 
@@ -170,7 +194,7 @@
 <h1>Links</h1>
 <ul>
     <li>
-    <a href="https://github.com/yl33643/yl33643.github.io">github yl33643.github.io</a>
+    <a href="http://yl33643.github.io">github yl33643.github.io</a>
     </li>
 </ul>
 </section>
