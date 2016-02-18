@@ -4,7 +4,7 @@
   <title><![CDATA[Better Mi]]></title>
   <link href="http://bettermi.github.io/atom.xml" rel="self"/>
   <link href="http://bettermi.github.io/"/>
-  <updated>2016-02-02T11:28:02+08:00</updated>
+  <updated>2016-02-18T11:04:00+08:00</updated>
   <id>http://bettermi.github.io/</id>
   <author>
     <name><![CDATA[HM]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[iOS开发中遇到的小问题]]></title>
+    <link href="http://bettermi.github.io/blog/2016/02/18/ioskai-fa-zhong-yu-dao-de-xiao-wen-ti/"/>
+    <updated>2016-02-18T10:49:56+08:00</updated>
+    <id>http://bettermi.github.io/blog/2016/02/18/ioskai-fa-zhong-yu-dao-de-xiao-wen-ti</id>
+    <content type="html"><![CDATA[<h2>  UIImageView添加手势无效</h2>
+
+<p>  向UIImageView对象添加UIGestureRecognizer手势的时候发现，手势无法产生响应。查找原因，原来是默认生成的UIImageView对象的userInteractionEnabled、multipleTouchEnabled属性值为NO，将其设置为YES就可以响应手势了。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress的一些配置]]></title>
@@ -98,9 +109,15 @@
 <p> bash能记忆使用过的指令，通过“上下键”就可以找到之前输入的某个指令。我们曾经输入过的指令都记录 在.bash_history文档中。</p></li>
 <li><p>档案对比补全功能：</p>
 
-<p> 输入某个指令的前面几个单词之后，按下“tab”键，那么后面的单词就会自动补全了。如果有重复的指令，连续按下两次“tab”键，就会列出所有的重复单词。文件名也同样可以使用“tab”</p></li>
+<p> 输入某个指令的前面几个单词之后，按下“tab”键，那么后面的单词就会自动补全了。如果有重复的指令，连续按下两次“tab”键，就会列出所有的重复单词。文件名也同样可以使用“tab”。</p></li>
+<li><p>命令别名（alias）设定功能：</p>
+
+<p> 可以设置别名来代替一些繁琐的操作，比如：
+ alias git-pull=&lsquo;git pull team master &amp;&amp; git push origin master&rsquo;,以后直接输入git-pull就可以完成git从team远程仓库的master分支拉取最新代码，并且再push到origin仓库的master分支这样一个略繁琐的操作了，是不是非常方便啊~</p></li>
 </ul>
 
+
+<h2> Shell环境下的命令</h2>
 ]]></content>
   </entry>
   

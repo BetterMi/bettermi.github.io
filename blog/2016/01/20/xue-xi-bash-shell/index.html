@@ -108,9 +108,15 @@
 <p> bash能记忆使用过的指令，通过“上下键”就可以找到之前输入的某个指令。我们曾经输入过的指令都记录 在.bash_history文档中。</p></li>
 <li><p>档案对比补全功能：</p>
 
-<p> 输入某个指令的前面几个单词之后，按下“tab”键，那么后面的单词就会自动补全了。如果有重复的指令，连续按下两次“tab”键，就会列出所有的重复单词。文件名也同样可以使用“tab”</p></li>
+<p> 输入某个指令的前面几个单词之后，按下“tab”键，那么后面的单词就会自动补全了。如果有重复的指令，连续按下两次“tab”键，就会列出所有的重复单词。文件名也同样可以使用“tab”。</p></li>
+<li><p>命令别名（alias）设定功能：</p>
+
+<p> 可以设置别名来代替一些繁琐的操作，比如：
+ alias git-pull=&lsquo;git pull team master &amp;&amp; git push origin master&rsquo;,以后直接输入git-pull就可以完成git从team远程仓库的master分支拉取最新代码，并且再push到origin仓库的master分支这样一个略繁琐的操作了，是不是非常方便啊~</p></li>
 </ul>
 
+
+<h2> Shell环境下的命令</h2>
 </div>
 
 
@@ -167,6 +173,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/02/18/ioskai-fa-zhong-yu-dao-de-xiao-wen-ti/">iOS开发中遇到的小问题</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/01/22/octopressde-%5B%3F%5D-xie-pei-zhi/">Octopress的一些配置</a>
       </li>
     
@@ -183,7 +193,7 @@
 <section>
   <h1>Categories</h1>
   <ul id="categories">
-    <ul id="category-list"><li><a href='/blog/categories/self-talking/'>self-talking (1)</a></li><li><a href='/blog/categories/study-notes/'>study-notes (2)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/self-talking/'>self-talking (1)</a></li><li><a href='/blog/categories/study-notes/'>study-notes (3)</a></li></ul>
   </ul>
 </section>
 
